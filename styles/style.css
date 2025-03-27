@@ -1,0 +1,128 @@
+/* GENERAL */
+body {
+  text-align: center;
+}
+
+/* LAYOUT */
+
+.container {
+  width: 1120px;
+  margin: 0px auto;
+}
+
+/* TYPOGRAPHY */
+
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url('../assets/fonts/RedHatDisplay.ttf') format('truetype');
+}
+
+body {
+  font-family: 'RedHatDisplay', sans-serif;
+}
+
+.text-preset-1 {
+  font-size: 64px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  color: #28283D;
+  font-weight: bold;
+}
+
+.text-preset-2 {
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: 0;
+  font-weight: bold;
+  width: 445px;
+}
+
+.text-preset-3 {
+  font-size: 13px;
+  line-height: 1.1;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #4D96A9;
+}
+
+.text-preset-4 {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  color: #87879D;
+}
+
+.text-preset-5 {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+/* BUTTON */
+
+button {
+  padding: 16px 40px;
+  font-family: 'RedHatDisplay', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 29px;
+  transition: 1s;
+}
+
+.btn-cyan {
+  background-color: #4D96A9;
+}
+
+.btn-cyan:hover {
+  background-color: #71C0D4;
+}
+
+.btn-cyan span {
+  color: #8FE3F9;
+}
+
+.btn-purple {
+  background-color: #855FB1;
+}
+
+.btn-purple:hover {
+  background-color: #B18BDD;
+}
+
+.btn-purple span {
+  color: #D9B8FF;
+}
+
+/* NUMBER SECTION */
+
+.number-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+}
+
+.line {
+  height: 80px;
+  width: 1px;
+  background-color: #D1D1DF;
+}
+
+.circle {
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #D1D1DF;
+  color: #87879D;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  background-color: #fff;
+}
