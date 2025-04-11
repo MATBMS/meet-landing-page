@@ -1,0 +1,165 @@
+/* Responsive styles for 768px */
+@media (max-width: 768px) {
+
+  /* TYPOGRAPHY */
+
+  .text-preset-1 {
+    font-size: 48px;
+  }
+
+  .text-preset-2 {
+    font-size: 36px;
+  }
+
+  .text-preset-3 {
+    font-size: 14px;
+  }
+
+  .text-preset-4 {
+    font-size: 16px;
+  }
+
+  .text-preset-5 {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0;
+  }
+
+  /* STYLES */
+
+  .container {
+    width: 680px;
+  }
+
+  /* HEADER */
+
+  .logo {
+    margin: 48px auto 0 auto;
+  }
+
+  .hero {
+    grid-template-columns: 160px 224px 224px 160px;
+    grid-template-rows: 303px 72px 258px;
+  }
+
+  .hero-img-left {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .hero-content {
+    grid-column: 2 / 4;
+    grid-row: 3 / -1;
+    gap: 24px;
+  }
+
+  .hero-img-right {
+    grid-column: 3 / -1;
+    grid-row: 1 / 2;
+  }
+
+  /* MAIN */
+
+  main img {
+    width: 152px;
+    height: 160px;
+  }
+
+  .gallery {
+    gap: 24px;
+  }
+
+  .main-content {
+    width: 311px;
+  }
+
+  /* FOOTER */
+
+  footer {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    width: 504px;
+    gap: 24px;
+  }
+
+  footer .text-preset-4 {
+    width: 504px;
+    text-align: center;
+  }
+}
+
+/* Responsive styles for 375px */
+
+@media (max-width: 375px) {
+
+  /* TYPOGRAPHY */
+
+  .text-preset-1 {
+    font-size: 40px;
+  }
+
+  footer .text-preset-2,
+  footer .text-preset-4 {
+    width: 311px;
+    text-align: center;
+  }
+
+  .text-preset-2 {
+    font-size: 32px;
+  }
+
+  .text-preset-3 {
+    font-size: 12px;
+  }
+
+  /* STYLES */
+
+  .container {
+    width: 311px;
+  }
+
+  /* HEADER */
+
+  .hero {
+    grid-template-columns: 35px 152px 152px 35px;
+    grid-template-rows: 160px 48px 336px;
+  }
+
+  .hero-img-left img,
+  .hero-img-right img {
+    height: 160px;
+  }
+
+  .hero-img-left img {
+    transform: translateX(-27px);
+  }
+
+  .hero-img-right img {
+    transform: translateX(27px);
+  }
+
+  .cta {
+    flex-direction: column;
+  }
+
+  /* == MAIN == */
+
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+
+  .gallery img {
+    height: 144px;
+  }
+
+  /* == MAIN == */
+
+  .footer-content {
+    width: 311px;
+  }
+}

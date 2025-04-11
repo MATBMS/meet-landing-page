@@ -9,7 +9,6 @@ footer {
   padding: 118px 80px;
   background: url(../assets/desktop/image-footer.jpg) no-repeat center center;
   background-size: cover;
-  background-size: cover;
   background-blend-mode: multiply;
   background-color: #4D96A9;
   position: relative;
@@ -39,6 +38,7 @@ footer::before {
 footer .number-section {
   position: absolute;
   left: 50%;
+  transform: translateX(-50%);
   top: -108px;
 }
 
