@@ -35,9 +35,9 @@
 }
 
 .hero-img-left img {
-  transform: translateX(-25px);
+  transform: translateX(-25px) translateY(-23px);
 }
 
 .hero-img-right img {
-  transform: translateX(29px);
+  transform: translateX(29px) translateY(23px);
 }
