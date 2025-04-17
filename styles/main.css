@@ -17,6 +17,16 @@ main img {
   width: 256px;
   height: 256px;
   border-radius: 8px;
+  display: block;
+  transition: all 0.4s;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+main img:hover {
+  transform: scale(1.1);
 }
 
 .main-title {

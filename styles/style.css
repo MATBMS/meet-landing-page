@@ -26,14 +26,14 @@ body {
   line-height: 1.1;
   letter-spacing: 0;
   color: #28283D;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .text-preset-2 {
   font-size: 40px;
   line-height: 1.1;
   letter-spacing: 0;
-  font-weight: bold;
+  font-weight: 900;
   width: 445px;
 }
 
@@ -42,7 +42,7 @@ body {
   line-height: 1.1;
   letter-spacing: 4px;
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 900;
   color: #4D96A9;
 }
 
@@ -103,6 +103,7 @@ button {
   flex-direction: column;
   align-items: center;
   z-index: 2;
+  transition: all 0.4s;
 }
 
 .line {
@@ -125,4 +126,17 @@ button {
   line-height: 1.5;
   letter-spacing: 0;
   background-color: #fff;
+}
+
+.circle:hover {
+  background-color: #4D96A9;
+  color: #fff;
+}
+
+.number-section:hover .line {
+  background-color: #4D96A9;
+}
+
+.number-section:hover .circle {
+  border: 1px solid #4D96A9;
 }
